@@ -31,5 +31,5 @@ metadata:
   name: nginx-configmap
 data:
   app.properties: |
-    name=Sandeep
-    age=25
+    name=Naresh
+    age=29
