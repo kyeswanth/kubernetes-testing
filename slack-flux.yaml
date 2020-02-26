@@ -69,16 +69,6 @@ spec:
         imagePullPolicy: Always
         ports:
         - containerPort: 3032
-        env:
-        # Set these environment variables:
-        - name: SLACK_URL
-          value: "https://hooks.slack.com/services/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"
-        - name: SLACK_CHANNEL
-          value: "#flux-cloud-alerts"
-        - name: GITHUB_URL
-          value: "https://github.com/kyeswanth/kubernetes-testing"
-        - name: LISTEN_ADDRESS
-          value: ":3032"
 ---
 # memcached deployment used by Flux to cache
 # container image metadata.
